@@ -587,40 +587,36 @@
 				<div class="col-md-12">
 					<div class="request-form">
 						<!-- Contact Form start -->
-						<form role="form">
+						<form role="form" action="https://formspree.io/f/xknabwkw" method="post">
 							<div class="row">
 								<div class="col-md-4">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Full Name" />
+										<input type="text" name="username" class="form-control" placeholder="Full Name" required/>
 									</div>
 								</div>
 								
 								<div class="col-md-4">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email" />
+										<input type="text" name="email" class="form-control" placeholder="Email" required/>
 									</div>
 								</div>
 								
 								<div class="col-md-4">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Phone" />
+										<input type="text" name="phoneno" class="form-control" placeholder="Phone" required />
 									</div>
 								</div>
 								
 								<div class="col-md-4">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Subject" />
+										<input type="text" name="subject" class="form-control" placeholder="Subject" required/>
 									</div>
 								</div>
 								
 								<div class="col-md-4">
 									<div class="form-group">
-										<select class="form-control">
-											<option>Select Option</option>
-											<option>Option 1</option>
-											<option>Option 2</option>
-											<option>Option 3</option>
-										</select>
+										<input type="text" name="message" class="form-control" placeholder="Message" required/>
+										<!-- <textarea name="text" id="" class="form-control" placeholder="Message" ></textarea> -->
 									</div>
 								</div>
 								
@@ -708,11 +704,11 @@
 						<h2>Newsletter</h2>
 						<div class="newsletter">
 							<p>Get Latest Update & Offers</p>
-							<form role="form">
+							<form role="form" action="https://formspree.io/f/xknabwkw" method="post">
 								<div class="input-group col-md-12">
-									<input type="text" class="search-query form-control" placeholder="Enter Your email address" />
+									<input type="text" name="email" class="search-query form-control" placeholder="Enter Your email address" />
 									<span class="input-group-btn">
-										<button type="button">
+										<button type="submit">
 											<span class="fa fa-envelope"></span>
 										</button>
 									</span>
